@@ -1,6 +1,6 @@
 local CooldownDisplay = {}
 
-CooldownDisplay.option = Menu.AddOption({ "Awareness" }, "Cooldown Display", "Displays enemy hero cooldowns in an easy an intuitive way.")
+CooldownDisplay.option = Menu.AddOption({ "Awareness" }, "Cooldown Display", "Displays enemy hero cooldowns in an easy and intuitive way.")
 
 CooldownDisplay.boxSize = 16
 CooldownDisplay.innerBoxSize = CooldownDisplay.boxSize - 2
