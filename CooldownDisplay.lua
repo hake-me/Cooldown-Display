@@ -97,7 +97,7 @@ function CooldownDisplay.OnDraw()
         local hero = Heroes.Get(i)
         
         if not Entity.IsSameTeam(myHero, hero) and not Entity.IsDormant(hero) and not NPC.IsIllusion(hero) and Entity.IsAlive(hero) then
-            CooldownDisplay.DrawDisplay(Heroes.Get(i))
+            CooldownDisplay.DrawDisplay(hero)
         end
     end
 end
